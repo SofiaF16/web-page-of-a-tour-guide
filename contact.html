@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Moscow tour guide</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <div class="wrapper">
+    <header>
+        <h1>Eugenia Tarasova</h1>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="moscow.html">Moscow</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+        <div class="hamburger">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+    </nav>
+</div>
+    <main>
+        
+        <div class="banner">
+            <h2>Moscow</h2>
+        </div>
+        <div class="content">
+            <div id="title">
+                <h2>Contact</h2>
+            </div>
+            <div id="contact">
+            <p>To get in touch, email <a href="mailto:tarke@yandex.ru">tarke@yandex.ru</a></p>
+            <p>To contact Eugenia Tarasova, please fill out the form below:</p>
+            <form action="#" id="form">
+                <fieldset>
+                    <div class="input-container ">                    
+                    <input class="inputs" type="text" name="firstname" id="firstname"  required>
+                    <label for="firstname">First Name*</label>
+                    <span>First Name</span>
+                    </div>
+                    <div class="input-container">                    
+                    <input class="inputs" type="text" name="lastname" id="lastname" required>
+                    <label for="lastname">Last Name*</label>
+                    <span>Last Name</span>
+                    </div>
+                    <div class="input-container">                    
+                    <input class="inputs" type="email" name="email" id="email" required>
+                    <label for="email">E-mail*</label>
+                    <span>E-mai</span>                    
+                    </div>
+                    <div class="input-container">                   
+                    <input class="inputs" type="text" name="subject" id="subject" required>
+                    <label for="subject">Subject*</label>
+                    <span>Subjecte</span>
+                    </div>
+                    <div class="input-container textarea">                    
+                    <textarea class="inputs" name="comments" id="message"></textarea>
+                    <label for="message">Message*</label>
+                    <span>Message</span>
+                    </div>
+                    <input class="button" type="button" value="Add" onclick="add()">
+                    <input class="button" type="submit" value="Submit" onclick="formValidation()">
+                </fieldset>
+                
+            </form>
+            <div class="contact-info">
+            <p class="info" >Check your information:</p>
+            <p class="info"  id="contact-info"></p>
+            </div>
+            </div>
+            <footer>
+            
+                <a href="https://www.instagram.com/eugenietar/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/evgenia.tarasova2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <p>Sofia Feldman &copy; 2021, all rights reserved</p>
+            </footer>
+            
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

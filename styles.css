@@ -1,0 +1,776 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.wrapper {
+    height: 100px;
+    width:  100%;
+    position: fixed;
+    background-color: #262626;
+}
+
+
+h1{
+  float: left;
+  line-height: 100px;
+  font-family: 'Cormorant Unicase', serif;
+  letter-spacing: 5px;
+  color: white;
+  margin-left: 1em;
+
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+    margin-right: 5em;
+    font-size: 1.5vw;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    font-family: 'Cormorant Unicase', serif;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 1.250em;
+    margin: 0 10px;
+    color: white;
+}
+
+nav a:hover {
+    color: #575F70;
+}
+
+
+.banner {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(images/Moscow_banner.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner h2 {
+    padding-top: 8%;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #B6C5CC;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-family: 'Cormorant Unicase', serif;
+
+}
+
+#intro {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#intro_text{
+    font-family: 'Gelasio', serif;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-top: 0;
+    padding-bottom: 2em;
+    margin-top: -20px;
+}
+
+#author {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    font-size: 1.1em;
+    padding: 0;
+    margin-bottom: 3em;
+    margin-top: -30px;
+    padding-right: 2em;
+
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ddd;
+    height: 1500px;
+    padding-top: 3em;
+    height: auto;
+}
+
+.content h3 {
+    letter-spacing: 4px;
+    padding: 2em 0 1em;
+    margin: 0 1em;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content p {
+    padding: 2% 10%;
+    font-family: 'EB Garamond', serif;
+    font-size: 130%; 
+}
+
+
+.flex_container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.left {
+    flex: 1;
+    margin: 0 4% ;
+    position: relative;
+
+}
+
+
+.left img {
+    max-height: 100%;  
+    max-width: 100%; 
+    box-shadow: 2px 2px 8px #9C939B;
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.right {
+    background-color: #d3d0d0;
+    margin: 0 4%;
+    flex: 2;
+    max-height: 578.98px;
+    box-shadow: -2px 2px 8px #9C939B;
+    border-radius: 10px;
+    text-align: justify;
+    min-height: 400px;
+    
+
+}
+
+.right a {
+    background-color: #9C939B;
+    text-decoration: none;
+    color: #ddd;
+    display: inline-block;
+    width: 50%;
+    height: 60px;
+    border-radius: 20px;
+    margin: 3% 0 2% 25%;
+    line-height: 60px;
+    font-size: 120%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 8px #2F4858;
+}
+
+.right a:hover {
+    color: #575F70;
+}
+
+#second_block{
+    margin-top: 5%;
+    flex-direction: row;
+}
+
+#third_block{
+    margin-top: 5%;
+}
+
+#about_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_second_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 3em;
+}
+#contact a {
+    color: #898596;
+}
+
+#contact a:hover {
+    color: #444a58
+}
+
+
+#conclusion {
+    margin: 2em auto 0;
+    text-align: justify;
+    max-width: 1500px;
+}
+
+#content_moscow{
+    background-image: url(Images/Moscow_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    background-attachment: fixed;
+    position: relative;
+    top: 100px;
+    min-height: 800px;
+}
+
+#moscow {
+    background-color:rgba(150, 150, 143, 0.8);
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2.5em;
+    text-align: justify;
+    color: #21211B;
+    border-radius: 10px;
+    border: 1px solid #21211B;
+}
+
+#link {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: .9em;
+    margin-bottom: 55px;
+
+}
+
+#button {
+    text-decoration: none;
+    background-color: #796E61;
+    color: #B0B0AB;
+    font-family: inherit;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 2px solid #464137;
+    padding: 7px 55px;
+}
+
+#button:hover {
+    background-color: #9b8e7e;
+    color: #464137;
+    transition: 1s;
+    cursor: pointer;
+}
+
+footer {
+    background: #9C939B;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background: #ddd;
+    margin: 20px;
+    border-radius: 30%;
+    text-align: center;
+}
+
+i {
+    color: #2F4858;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+footer a:hover {
+    background: #2F4858;
+    transition: 1s;
+}
+
+a:hover i {
+    color: #ddd;
+    transition: 1s;
+    transform: scale(1.3);
+}
+
+footer p {
+    font-size: .8em;
+    font-style: italic;
+    color: #ddd;
+}
+
+#footer_moscow{
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+.tours_content{
+    display: flex;
+    text-align: justify;
+}
+
+.tours_content h3 {
+    padding: 1em 0 .5em;
+}
+
+.tours_content p {
+    font-size: 1.2em;
+    justify-content: right;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.tours_left {
+    flex: 1;
+    
+}
+
+.tours_left img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.tours_right {
+    flex: 1;
+    background-color: #d3d0d0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+    
+.second_block {
+    flex-direction: row-reverse;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(206, 204, 204);
+     
+    
+}
+
+
+.inputs {
+    width: 80%;
+    border: 2px solid #9C939B;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: .3s;
+}
+
+.inputs:focus {
+    outline: none;
+    box-shadow: 0 0 0 1pt #9C939B;
+    transition: .5s;
+
+}
+
+
+textarea.inputs {
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 22px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.input-container {
+    position: relative;
+    margin: 1rem 0;
+}
+
+
+
+label {
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translateY(-50%);
+    padding: 0 .4rem;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 400;
+    transition: .5s;
+    cursor: text;
+}
+
+.input-container.textarea label {
+    top: 1rem;
+    transform: translateY(0);
+}
+
+.button {
+    padding: .6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: .95rem;
+    color: #9C939B;
+    line-height: 1;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid #9C939B;
+    color: #21211B;
+    transition: .3s;
+}
+
+.input-container span{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    transform: translateY(-50%);
+    font-size: .8rem;
+    padding: 0 .4rem;
+    color: transparent;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.input-container span::before,
+.input-container span::after {
+    content: "";
+    position: absolute;
+    width: 10%;  
+    opacity: 0; 
+    transition: .3s;
+    height: 5px;
+    background-color: rgb(206, 204, 204);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-container span::before {
+    left: 50%;
+}
+
+.input-container span::after {
+    right: 50%;
+}
+
+.input-container.focus label {
+    top:0;
+    transform: translateY(-50%);
+    left:  15%;
+    font-size: 0.8rem;
+    z-index: 500;
+
+}
+
+.input-container.focus span::before,
+.input-container.focus span::after {
+    width: 50%;
+    opacity: 1;
+}  
+
+.contact-info .info {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 3em;
+}
+
+@media only screen and (max-width:1024px) {
+   
+
+    #moscow {
+        width: 70%;
+    }
+
+    .right a {
+        
+        width: 70%;
+        height: 50px;
+        margin: 3% 0 4% 16%;
+        line-height: 50px;
+    }
+
+    .wrapper {
+        height: 200px;
+        width:  100%;
+        position: fixed;
+        background-color: #262626;
+    } 
+    
+    
+    h1{
+        width: 100%;
+        text-align: center; 
+        margin: 0;    
+    
+    }
+    
+    nav{
+        position: fixed;
+        top: 100px;
+        width: 100%;
+        font-size: 2.2vw;
+        text-align: center;
+
+    }
+    nav ul {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+
+    }    
+
+    
+    .banner {        
+        top: 150px;
+        z-index: -1;        
+    }
+    
+    .banner h2 {
+        padding-top: 15%;
+        
+    }
+    #content_moscow{        
+        top: 200px;
+    }
+
+    form {
+        width: 70%;
+    }
+      
+}
+
+@media only screen and (max-width:768px) {
+
+    .wrapper {
+        height: 100px;
+    }
+
+    .banner {        
+    top: 100px;
+    background-position: left;
+    }
+
+    .content {
+        z-index: -1;
+    }
+
+    .hamburger  {
+        width: 35px;
+        height: 30px;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;     
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .line {
+        width: 100%;
+        height: 3px;
+        background-color: #898596;
+        transition: all .6s;
+        
+    }
+
+     nav{
+        width: 300px;
+        height: 100%;
+        background-color: #262626;
+        position: fixed;
+        top: 100px;
+        right: -300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        border-radius: 20% 0 0 20%;      
+        transition: right .6s;
+
+    }
+
+    .change {
+        right: 0;
+    }
+    
+    .change #line1 {
+        transform: rotateZ(-45deg) translate(-8px, 6px);
+    }  
+
+    .change #line2 {
+        opacity: 0;
+    } 
+
+    .change #line3 {
+        transform: rotateZ(45deg) translate(-8px, -6px);
+    } 
+            
+
+    nav li {
+        display: block;
+        margin: 25px;
+    }
+
+  
+   .content h3 {
+    
+    font-size: 4.3vw;
+   }   
+
+ 
+   .right {
+    min-height: 800px;
+   }
+
+   .left img {
+    position: static;
+}
+
+   .left {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+     
+   }
+  
+   
+   #first_img {
+    top: 290px;    
+    width: 37%;
+
+   }
+
+    #first_flex_content{
+        position: absolute;
+        top: 550px;
+
+    }
+
+    #second_img {
+        top: 1130px;
+        width: 50%;
+
+    }
+    
+    #second_flex_content{
+        position: absolute;
+        top: 1380px;    
+    }
+
+    #third_img {
+        top: 1950px;
+        width: 50%;
+
+    }
+    
+    #third_flex_content{
+        position: absolute;
+        top: 2250px;    
+    }
+
+    #about_flex_container {
+        flex-direction: column;        
+    }
+
+    #about_figure {
+        width: 60%;
+        position: absolute;
+        top: 460px;
+    }
+
+    #about_box {
+        align-items: flex-end;
+        padding-bottom: 7em;
+    }
+
+    #about_figure_second {
+        width: 38%;
+        position: absolute;
+        top: 1260px;
+    }
+
+    #about_second_box{
+        align-items: flex-end;
+        padding-bottom: 2em;
+    }
+ 
+    
+    #moscow {
+        width: 100%;
+        line-height: 2.5em;
+        border-radius: 0px;
+        border: 1px solid #21211B;
+        
+    }
+
+    .tours_content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .second_block {
+        flex-direction: column;
+    }
+
+    #content_moscow {
+        top: 100px;
+    }
+
+    body{
+        position: relative;
+        z-index: -2;
+    }
+
+    main {
+        position: relative;
+        z-index: -2;
+    }
+
+    form {
+        width: 100%;
+
+    }
+    
+   
+        
+    
+    
+    
+     
+ 
+   
+
+
+   
+}
